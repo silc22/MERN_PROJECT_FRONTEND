@@ -60,7 +60,7 @@ const Project = () =>{
 
     if(loading) return "Cargando..."
 
-    const { msg } = alert
+
 
     return(
        

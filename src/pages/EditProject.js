@@ -7,7 +7,7 @@ const EditProject = () => {
     const params = useParams()
     const { getProject , project, loading, deleteProject } = useProjects()
 
-    const {name, description,  deliveryDate, client} = project
+    const {name} = project
 
     useEffect(()=>{
         getProject(params.id)
